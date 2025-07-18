@@ -1,0 +1,455 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PIZZA WEBSITE</title>
+        <link rel="stylesheet" href="./pizza.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&display=swap"
+            rel="stylesheet">
+
+
+    <body>
+        <!----------------Nav &Carousel Link--------------->
+
+        <nav class="navbar navbar-expand-lg nav-bar-edit">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fs-2 fw-bold " href="#"> Pizza Hutt 🍕 </a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item me-4 fw-bold fs-5">
+                            <a class="nav-link text-white" aria-current="page" href="./pizzashome.html">Pizzas</a>
+                        </li>
+                        <li class="nav-item  me-4    fw-bold fs-5">
+                            <a class="nav-link text-white" href="./sidespizza.html" target="_blank">Sides</a>
+                        </li>
+                        <li class="nav-item  me-4 fw-bold fs-5">
+                            <a class="nav-link text-white" href="./dessertspizza.html"target="_blank">Desserts</a>
+                        </li>
+                        <li class="nav-item  me-4 fw-bold fs-5">
+                            <a class="nav-link text-white" href="servicepizza.html"target="_blank">Services</a>
+                        </li>
+                        <li class="nav-item  me-4 fw-bold fs-5">
+                            <a class="nav-link text-white" href="./contactpizza.html"target="_blank">Contacts</a>
+                        </li>
+
+                    </ul>
+                   <form class="d-flex" role="search">
+  <input class="form-control   me-3" type="search" placeholder="Search"  aria-label="Search" />
+  <button class="btn btn-success text-white fs-6 fw-bold hello" type="submit">Search</button>
+</form>
+
+                </div>
+            </div>
+        </nav>
+
+        <!----------------------------Coursel----------------->
+
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="./bootimages/pizza.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 pt-5 my-5 ">
+                        <h1 class=" pt-5 my-4 fs-1 fw-bold   text-warning"> DELICIOUS PIZZA <br> IN THE CITY <br> <i
+                                class="fa-solid fa-city fa-beat-fade"></i></h1>
+                        <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illo reiciendis a
+                            cumque
+                            necessitatibus molestias culpa tempore, doloribus facilis provident?</p>
+                        <button class="btn btn-danger text-white  ">Explore Now <i
+                                class="fa-solid fa-magnifying-glass fa-beat-fade"></i></button>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="./bootimages/pizza3.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption n cap-2  top-0 pt-5 my-5 ">
+                        <h1 class=" pt-5 my-4 fs-1  fw-bold "><i class="fa-solid fa-quote-left fa-beat"></i> PIZZA WITH
+                            URBAN FLAIR <br> ENJOY THE TASTE <i class="fa-solid fa-quote-right fa-beat"></i></h1>
+                        <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illo reiciendis a
+                            cumque
+                            necessitatibus molestias culpa tempore, doloribus facilis provident?</p>
+                        <button class="btn btn-danger text-white  ">Explore Now <i
+                                class="fa-solid fa-magnifying-glass fa-beat-fade"></i></button>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="./bootimages/pizza2.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption top-0 pt-5 my-5  ">
+                        <h1 class=" pt-5 my-4 fs-1 fw-bold  text-success"> PIZZA CRAVINGS ? 🍕</h1>
+                        <h3 class=" fs-2 pb-3 text-warning">Get It Delivered Hot And Fresh! </h3>
+                        <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illo reiciendis a
+                            cumque
+                            necessitatibus molestias culpa tempore, doloribus facilis provident?</p>
+                        <button class="btn btn-danger text-white  ">Explore Now <i
+                                class="fa-solid fa-eye fa-flip"></i></button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+
+        <!---------------------Product Section----------------->
+        <div class="container-fluid">
+            <div class="title">
+                <h1 class=" pizza-decoration fw-bold fs-1 text-center  my-5">Our Pizzas 🧀</h1>
+                <marquee behavior="scroll" direction="right">
+                    <p class="fs-5 fw-bold text-center pb-4" style="font-family: cursive; color: darkgoldenrod;">Explore our
+                        great range of pizza recipes from the Pizza Hutt
+                        pizza menu.
+                    </p>
+                </marquee>
+            </div>
+            <div class="row d-flex justify-content-center gap-4">
+                <div class="col d-flex justify-content-center ">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p.jpg" class="card-img-top " style="height: 200px; object-fit: cover;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title  pt-3 pe-2 fw-bold">kadaai Paneer</h5>
+
+                            <p class="fs-6">Take your taste buds on a joyride with juicy marinated paneer, capsicum, and
+                                onion, all coated in flavorful Kadhai sauce </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success  "> View More<i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p1.jpg" class="card-img-top"style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pt-3  pe-2 fw-bold">Royal Spice Paneer</h5>
+
+                            <p class="fs-6">Indulge in a royal delight with juicy marinated paneer, tomato, onion, and a
+                                sauce packed with rich, aromatic spices. </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p2.jpg" class="card-img-top  "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2 pt-3 fw-bold">Southern Fiery Paneer</h5>
+
+                            <p class="fs-6">Spice up your day with pizza topped with paneer, green capsicum,
+                                tomato, fiery sauce bursting southern spices. </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p3.jpg" class="card-img-top "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2 pt-3 fw-bold">Classic Onion Capsicum</h5>
+
+                            <p class="fs-6">Spice up your day with pizza topped with marinated chicken, green
+                                capsicum, tomato, and a fiery traditional southern spices. </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p4.jpg" class="card-img-top  " style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2 pt-3 fw-bold">Classic Corn</h5>
+
+                            <p class="fs-6">Take your taste buds on a joyride with juicy marinated chicken, capsicum, and
+                                onion, all coated in flavorful Kadhai sauce. </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p5.jpg" class="card-img-top  "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2 pt-3 fw-bold">Chilli Paneer Sizzle</h5>
+
+                            <p class="fs-6">Indulge in a royal delight with juicy marinated paneer, tomato, onion, and a
+                                sauce packed with rich, aromatic spices.</p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/pizza1.jpg" class="card-img-top "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title  pe-2  pt-3 fw-bold">Classic Onion Capsicum</h5>
+
+                            <p class="fs-6">Pizza topped with our classic pan sauce, joyride with juicy marinated crunchy
+                                onion & capsicum and a
+                                flavourful dressing. </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p6.jpg" class="card-img-top  "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2  pt-3 fw-bold">Mexican Fiesta</h5>
+
+                            <p class="fs-6">Take your taste buds on a joyride with juicy marinated paneer, capsicum, and
+                                onion, all coated in flavorful Kadhai sauce </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col d-flex justify-content-center gap-4">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p7.jpg" class="card-img-top "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2  pt-3 fw-bold">Ultimate Tandoori Veggie</h5>
+
+                            <p class="fs-6">Take your taste buds on a joyride with juicy marinated paneer, capsicum, and
+                                onion, all coated in flavorful Kadhai sauce </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col d-flex justify-content-center gap-4">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p8.jpg" class="card-img-top "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2  pt-3 fw-bold">Schezwan Margherita</h5>
+
+                            <p class="fs-6">Take your taste buds on a joyride with juicy marinated paneer, capsicum, and
+                                onion, all coated in flavorful Kadhai sauce </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col d-flex justify-content-center gap-4">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p9.jpg" class="card-img-top  "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2  pt-3 fw-bold">Veggie Fiesta</h5>
+
+                            <p class="fs-6">Take your taste buds on a joyride with juicy marinated paneer, capsicum, and
+                                onion, all coated in flavorful Kadhai sauce </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col d-flex justify-content-center">
+                    <div class="card product-card" style="width: 18rem;">
+                        <img src="./bootimages/p10.jpg"   class="card-img-top  "style="height: 200px; object-fit: cover;"  alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pe-2  pt-3 fw-bold">Cheesy Spicy Delight</h5>
+
+                            <p class="fs-6">Take your taste buds on a joyride with juicy marinated paneer, capsicum, and
+                                onion, all coated in flavorful Kadhai sauce </p>
+                            <div class="text-center pt-3">
+                                <a href="#" class="btn btn-success"> View More <i class="fa-solid fa-eye fa-flip"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+<!---i put one div for footer width i delete it if want use----------->
+                    <!-----------------------------------Review------------------------->
+
+    <div class="container-two">
+    <div class="review" style="background-color: rgb(218, 171, 178); padding-bottom: 0; margin-bottom: 0; ">
+        <h5 class="pt-5 mt-5 text-center">Review</h5>
+        <h1 class="text-center">What Our Clients Say</h1>
+        <p class="text-center pt-4">
+        But I must explain to you how all this mistaken idea of denouncing <br>
+        pleasure and praising pain was born.
+        </p>
+
+        <div class="row justify-content-center py-5">
+        <!-- Review Card 1 -->
+        <div class="col-md-4 d-flex justify-content-center">
+            <div class="card product-card1 p-3 shadow rounded review-card mt-3" style="width: 300px;">
+            <div class="text-warning text-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="mt-3 mb-0">
+                "The pizza was absolutely delicious! The crust was crispy and the toppings were fresh. Will definitely order again!"
+            </p>
+            <div class="d-flex align-items-center mt-3">
+                <img src="./bootimages/r.jpg" class="rounded-circle me-2" width="50" height="50" alt="Reviewer">
+                <h6 class="mb-0">Isabella <br><small>CEO, Universal</small></h6>
+            </div>
+            </div>
+        </div>
+
+        <!-- Review Card 2 -->
+        <div class="col-md-4 d-flex justify-content-center">
+            <div class="card product-card1 p-3 shadow rounded review-card mt-3" style="width: 300px;">
+            <div class="text-warning text-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="mt-3 mb-0">
+                "Great experience with quick delivery and delicious pizza. The crust was perfection!"
+            </p>
+            <div class="d-flex align-items-center mt-3">
+                <img src="./bootimages/r1.jpg" class="rounded-circle me-2" width="50" height="50" alt="Reviewer">
+                <h6 class="mb-0">Sophia <br><small>Food Blogger</small></h6>
+            </div>
+            </div>
+        </div>
+
+        <!-- Review Card 3 -->
+        <div class="col-md-4 d-flex justify-content-center">
+            <div class="card product-card1 p-3 shadow rounded review-card mt-3" style="width: 300px;">
+            <div class="text-warning text-center">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="mt-3 mb-0">
+                "Absolutely loved it! Every bite was packed with flavor. Highly recommend to everyone!"
+            </p>
+            <div class="d-flex align-items-center mt-3">
+                <img src="./bootimages/r2.jpg" class="rounded-circle me-2" width="50" height="50" alt="Reviewer">
+                <h6 class="mb-0">Emily <br><small>Pizza Critic</small></h6>
+            </div>
+            </div>
+        </div>
+
+        </div> <!-- End of Row -->
+    </div> <!-- End of review -->
+    </div> <!-- End of .container-two -->          
+
+<!-----------------------------footer-------------------------->
+
+  <div class="w-100 p-0 m-0 " >
+     
+    <footer class=" bg-dark text-white ">
+     <div class="container-fluid p-0 m-0">
+      <div class="row text-center g-0">
+        <div class="col-md-4 mb-4 ">
+
+            <h5 class="text-white fw-bold fs-3 mt-4">Quick Links</h5>
+          <ul class="list-unstyle" >
+            <li><a href="#" >Home</a></li>
+            <li><a href="#">Order Online</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+            <h5 class="text-white fw-bold fs-3 mt-4">Business Hours</h5>
+          <ul class="list-style  ">
+            <li><a href="#">Sunday - Thursday</a></li>
+            <li><a href="#">11:00 am - 10:30 pm</a></li>
+            <li><a href="#">Friday - Saturday</a></li>
+            <li><a href="#">11:00 am - 12:00 am</a></li>
+           
+          </ul>
+        </div>
+        <div class="col-md-4 mb-4 " >
+            <h5 class="  text-white fw-bold fs-3 mt-4">Contact Info</h5>
+         
+          <p class="text-white">Call Us : (925) 687-5882</p>
+            <p class="text-white  ">Mail Us : contact@pizza-hutt.com</p>
+            
+         <div class="d-flex justify-content-center">
+            <a href="#" class="text-white me-3"><i class="fa-brands fa-facebook fa-beat"></i></a>
+            <a href="#" class="text-white me-3"><i class="fa-brands fa-instagram fa-beat"></i></a>
+            <a href="#" class="text-white me-3"><i class="fa-brands fa-twitter fa-beat"></i></a>
+            <a href="#" class="text-white me-3"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+         </div>
+        </div>
+    </div>
+           <p class="text-center text-white pe-6 pb-5 pt-4">&copy; Copywritten and all rights are reserved @2021-2025 reddy develoeper.in Salem</p>
+    </footer>
+
+   
+                    <!------------------Javascript Link---------------->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+                        crossorigin="anonymous">
+                    </script>
+    </body>
+
+    </html>

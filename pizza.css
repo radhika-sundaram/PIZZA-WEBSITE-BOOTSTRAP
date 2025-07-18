@@ -1,0 +1,155 @@
+.nav-bar-edit{
+ background-color: rgb(15, 12, 12)!important;
+
+
+}
+
+/**********nav a tag********/
+
+.nav-link:hover {
+  color: #ffc107 !important;  /* Yellow on hover */
+
+  background-color: white;
+  border-radius: 60px;
+
+}
+.navbar-brand{
+    font-family: "Libre Baskerville", serif;
+
+}
+
+/********search-button******/
+.hello{
+    height: 40px;
+    width: 80px;
+     border: none !important;
+    background-color: red !important;
+}
+
+.c-item{
+    height: 730px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover; 
+    filter: brightness(0.9);
+}
+.carousel-caption h1{
+   
+      font-family: "Libre Baskerville", serif;   
+}
+
+.btn{
+    height: 40px;
+    width: 180px; 
+  border: none;
+}
+.btn:hover{
+    background-color: black!important;
+}
+.card-image-top{
+     width: 100%;
+  height: 65vw; /* Adjust this value as needed */
+  object-fit: cover;
+}
+
+.pizza-decoration{
+transition: text-decoration 0.3s ease, color 0.3s ease;
+}
+.pizza-decoration:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+                       /****************productsection**************/
+.product-card {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease;
+    border-radius: 50%; /* optional: rounded corners */
+}
+
+.product-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: scale(1.03); /* optional: slight zoom effect */
+ 
+}
+                        /************************review**************/       
+.product-card1 {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease;
+    border-radius: 50%; /* optional: rounded corners */
+}
+
+.product-card1:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(123, 45, 45, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(38, 2, 2, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: scale(1.03); /* optional: slight zoom effect */
+ 
+}
+/*******recipe index input field******/
+.hello1{
+   
+     border: none !important;
+    background-color: red !important;
+}
+
+.narrow-input{
+    
+    width:50% !important;
+}
+
+.container-six h1{
+    font-size: 80px !important;
+}
+
+
+/*************service***********/
+
+.product-card2{
+    border: none!important;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease;
+    border-radius: 50%; /* optional: rounded corners */
+}
+
+.product-card2:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(123, 45, 45, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25),
+    0 10px 20px rgba(38, 2, 2, 0.25),
+    0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: scale(1.03); /* optional: slight zoom effect */
+ 
+}
+
+footer li{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    
+}
+footer  li a:hover{
+   color: brown;
+}
+
+
+.review-card .fa-star,
+.review-card .fa-star-half-stroke,
+.review-card .fa-regular.fa-star {
+    transition: transform 0.5s;
+}
+.review-card:hover .fa-star,
+.review-card:hover .fa-star-half-stroke,
+.review-card:hover .fa-regular.fa-star {
+    transform: scale(1.5);
+}
